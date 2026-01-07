@@ -1,0 +1,7 @@
+services:
+  echo:
+    build: .
+    container_name: echo
+    ports:
+      - "127.0.0.1:8081:8081"
+    restart: always
