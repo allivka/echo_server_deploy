@@ -1,7 +1,7 @@
 services:
-  echo:
+  echo_tcp:
     build: .
-    container_name: echo
+    container_name: echo_tcp
     ports:
       - "127.0.0.1:8081:8081"
-    restart: always
+    restart: "always"
