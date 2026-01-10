@@ -1,2 +1,2 @@
-# echo_server_deploy
-docker configuration for building and deploying echo server
+# tcp_echo_server
+simple tcp echo server written in c and deployed with docker
